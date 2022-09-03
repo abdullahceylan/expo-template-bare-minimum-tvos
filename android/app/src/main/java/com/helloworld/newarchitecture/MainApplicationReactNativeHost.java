@@ -106,7 +106,8 @@ public class MainApplicationReactNativeHost extends ReactNativeHost {
                 return new FabricJSIModuleProvider(
                     reactApplicationContext,
                     componentFactory,
-                    ReactNativeConfig.DEFAULT_CONFIG,
+                    // ReactNativeConfig.DEFAULT_CONFIG, <-- not working with react-native-tvos@0.68.2-6
+                    new EmptyReactNativeConfig(),
                     viewManagerRegistry);
               }
             });
