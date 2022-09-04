@@ -8,10 +8,10 @@ When you run `expo run:android` command, `expo` checks your project root if `and
 Use this template as a prebuilt template.
 
 # How
-Update your `package.json` file to modify your `android` script:
+Update your `eas.json` file to modify your `prebuild` command:
 
 ```
-"android": "expo run:android --template https://github.com/abdullahceylan/expo-template-bare-minimum-tvos",
+"prebuildCommand": "prebuild --template https://github.com/abdullahceylan/expo-template-bare-minimum-tvos --no-install"
 ```
 
 That's all!
