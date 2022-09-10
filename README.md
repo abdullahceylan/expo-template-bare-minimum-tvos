@@ -1,3 +1,5 @@
+[![NPM](https://img.shields.io/npm/v/expo-template-bare-minimum-tvos.svg)](https://www.npmjs.com/package/expo-template-bare-minimum-tvos)
+
 # What
 This is a clone of `expo`'s bare minimal template which includes a minimal setup for using unimodules with React Native. Additionally, this template includes `react-native-tvos` support to use with your `expo` based React Native TV projects.
 
